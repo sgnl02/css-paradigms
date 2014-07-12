@@ -1,0 +1,44 @@
+$rood: red;
+
+#navbar {
+	width: 80%;
+	height: 100px;
+	color: $rood;
+}
+
+@mixin lijst {
+	float: left;
+	border: 1px solid $rood;
+}
+
+ul { list-style-type: none; }
+li { float: left;
+	a { 
+		font-weight: bold; 
+		color: $rood;	
+	}
+}
+
+.test {
+	border: {
+		style: solid;
+		left: {
+			width: 4px;
+			color: $rood;	
+		}
+		right: {
+			width: 4px;
+			color: $rood;	
+		}
+	}
+	@include lijst;
+}
+
+.groen {
+	background-color: green;
+}
+
+.groener {
+	@extend .groen;
+	color: black;
+}

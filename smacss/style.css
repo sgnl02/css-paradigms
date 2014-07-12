@@ -1,0 +1,28 @@
+#navbar {
+  width: 80%;
+  height: 100px;
+  color: red; }
+
+ul {
+  list-style-type: none; }
+
+li {
+  float: left; }
+  li a {
+    font-weight: bold;
+    color: red; }
+
+.test {
+  border-style: solid;
+  border-left-width: 4px;
+  border-left-color: red;
+  border-right-width: 4px;
+  border-right-color: red;
+  float: left;
+  border: 1px solid red; }
+
+.groen, .groener {
+  background-color: green; }
+
+.groener {
+  color: black; }

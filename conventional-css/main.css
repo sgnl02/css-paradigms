@@ -1,0 +1,55 @@
+body {
+	background-color: #eeeeee;
+	margin: 8px;
+}
+
+h1, h2, h3, p {
+	color: #000000;
+	font-family: georgia;
+}
+
+.box-wrapper {
+	overflow: auto;
+	background-color: #cccccc;
+	border: 8px dashed #000000;
+}
+
+.box-one {
+	float: left;
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+	margin: 20px;
+	background-color: #FFFFFF;
+	border: 1px solid #FF0000;
+}
+
+.box-two {
+	float: right;
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+	margin: 20px;
+	background-color: #FFFFFF;
+	border: 2px dashed #0000FF;
+}
+
+.box-three {
+	overflow: auto;
+	width: 200px;
+	height: 200px;
+	padding: 20px;
+	margin: 20px;
+	border-radius: 15px;
+	background-color: #FFFFFF;
+	border: 1px solid #00FF00;
+}
+
+.box-four {
+	float: left;
+	width: 400px;
+	height: 300px;
+	margin: 40px;
+	background-color: #FFFFFF;
+	border: 4px dotted #cc00cc;
+}

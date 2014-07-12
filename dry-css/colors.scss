@@ -1,0 +1,43 @@
+$red: #FF0000;
+$blue: #0000FF;
+$green: #00FF00;
+$purple: #CC00CC;
+$grey: #CCCCCC;
+$light-grey: #EEEEEE;
+$white: #FFFFFF;
+$black: #000000;
+
+body {
+	background-color: $light-grey;
+}
+
+.box-wrapper {
+	border-color: $black;
+}
+
+.box-one {
+	border-color: $red;
+}
+
+.box-two {
+	border-color: $blue;
+}
+
+.box-three {
+	border-color: $green;
+}
+
+.box-four {
+	border-color: $purple;
+}
+
+.box-one
+, .box-two
+, .box-three
+, .box-four {
+	background-color: $white;
+}
+
+.box-wrapper {
+	background-color: $grey;
+}
